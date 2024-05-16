@@ -1,0 +1,15 @@
+.nav {
+	width: 100%;
+	padding: 1em 3em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ul_list {
+	display: flex;
+}
+
+.list {
+	margin: 0em 1em;
+	list-style-type: none;
+}
