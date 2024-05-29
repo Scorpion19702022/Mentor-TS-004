@@ -58,20 +58,29 @@
 	justify-content: space-between;
 }
 
+.content {
+	width: 100%;
+}
+
 .heading_movie {
 	width: 100%;
+	font-size: 1.8em;
+	padding-bottom: 0.4em;
+	border-bottom: 0.04em solid var(--color-dark03);
+	margin-bottom: 0.2em;
 }
 
 .rating {
 	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 
-.box_btns {
+.btns {
 	width: 100%;
 	padding: 0.4em;
 	display: flex;
-	justify-content: space-between;
-	background-color: var(--color-dark07);
+	justify-content: space-around;
 }
 
 .btn {

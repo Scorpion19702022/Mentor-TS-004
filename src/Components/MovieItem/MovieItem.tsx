@@ -14,9 +14,11 @@ const MovieItem = () => {
 					<img className={styles.img_movie} src={Helicopter} alt='moviePhoto' />
 				</div>
 				<div className={styles.box_content}>
-					<h4 className={styles.heading_movie}>Helikopter w ogniu</h4>
-					<span className={styles.rating}>ocena: 10</span>
-					<div className={styles.box_btns}>
+					<div className={styles.content}>
+						<h4 className={styles.heading_movie}>Helikopter w ogniu</h4>
+						<span className={styles.rating}>ocena: 10</span>
+					</div>
+					<div className={styles.btns}>
 						<button className={styles.btn}>
 							<RemoveRedEyeIcon style={{ fontSize: '30px' }} />
 						</button>
