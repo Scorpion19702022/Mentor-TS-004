@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 import styles from './NavBar.module.css'
 import { getAllMovies } from '../../Api/Api'
 
+import movIm from '../../assets/movies.png'
+
 const NavBar = () => {
 	const [movies, setMovies] = useState<any>([])
 
@@ -17,7 +19,7 @@ const NavBar = () => {
 
 	return (
 		<nav className={styles.nav}>
-			<span className={styles.logo}>logo</span>
+			<img className={styles.logo} src={movIm} alt='logo' />
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
 				<li className={styles.list}>Blog</li>
