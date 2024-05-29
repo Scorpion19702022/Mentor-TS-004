@@ -17,7 +17,7 @@ const NavBar = () => {
 
 	return (
 		<nav className={styles.nav}>
-			<span>logo</span>
+			<span className={styles.logo}>logo</span>
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
 				<li className={styles.list}>Blog</li>
