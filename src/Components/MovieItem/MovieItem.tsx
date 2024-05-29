@@ -18,10 +18,10 @@ const MovieItem = () => {
 					<span className={styles.rating}>ocena: 10</span>
 					<div className={styles.box_btns}>
 						<button className={styles.btn}>
-							<RemoveRedEyeIcon style={{ fontSize: '50px' }} />
+							<RemoveRedEyeIcon style={{ fontSize: '30px' }} />
 						</button>
 						<button className={styles.btn}>
-							<AddCommentIcon style={{ fontSize: '50px' }} />
+							<AddCommentIcon style={{ fontSize: '30px' }} />
 						</button>
 					</div>
 				</div>
