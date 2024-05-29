@@ -20,9 +20,11 @@ const MovieItem = () => {
 					</div>
 					<div className={styles.btns}>
 						<button className={styles.btn}>
+							zobacz
 							<RemoveRedEyeIcon style={{ fontSize: '30px' }} />
 						</button>
 						<button className={styles.btn}>
+							dodaj
 							<AddCommentIcon style={{ fontSize: '30px' }} />
 						</button>
 					</div>
