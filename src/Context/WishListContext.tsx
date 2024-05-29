@@ -27,7 +27,7 @@ export const WishListProvider = ({ children }: WishListProvider) => {
 
 	const deleteMovie = () => {}
 
-	return <WishListContext.Provider value={{}}>{children}</WishListContext.Provider>
+	// return <WishListContext.Provider value={{}}>{children}</WishListContext.Provider>
 }
 
 export default WishListContext
