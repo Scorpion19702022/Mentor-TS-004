@@ -30,3 +30,31 @@
 	display: flex;
 	justify-content: center;
 }
+
+.box_movies {
+	width: 30%;
+	padding: 1.8em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box_img {
+	width: 35%;
+}
+
+.img_movie {
+	width: 100%;
+	object-fit: cover;
+}
+
+.box_content {
+	width: 60%;
+}
+
+.btn {
+	background: none;
+	border: none;
+	color: var(--color-blue01);
+	cursor: pointer;
+}

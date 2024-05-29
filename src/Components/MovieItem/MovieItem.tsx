@@ -2,6 +2,10 @@ import styles from './MovieItem.module.css'
 
 import Helicopter from '../../assets/helikopter.jpg'
 
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye'
+
+import AddCommentIcon from '@mui/icons-material/AddComment'
+
 const MovieItem = () => {
 	return (
 		<div className={styles.wrapper}>
@@ -13,8 +17,12 @@ const MovieItem = () => {
 					<h4 className={styles.heading_movie}>Helikopter w ogniu</h4>
 					<span className={styles.rating}>ocena: 10</span>
 					<div className={styles.box_btns}>
-						<button className={styles.btn}>zobacz</button>
-						<button className={styles.btn}>add to</button>
+						<button className={styles.btn}>
+							<RemoveRedEyeIcon style={{ fontSize: '50px' }} />
+						</button>
+						<button className={styles.btn}>
+							<AddCommentIcon style={{ fontSize: '50px' }} />
+						</button>
 					</div>
 				</div>
 			</div>
