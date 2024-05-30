@@ -6,7 +6,13 @@ import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye'
 
 import AddCommentIcon from '@mui/icons-material/AddComment'
 
-const MovieItem = () => {
+import { Link } from 'react-router-dom'
+
+type movieItemProps = {
+	movieProps: any
+}
+
+const MovieItem: React.FC<movieItemProps> = ({ movieProps }) => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.box_movies}>
@@ -15,14 +21,16 @@ const MovieItem = () => {
 				</div>
 				<div className={styles.box_content}>
 					<div className={styles.content}>
-						<h4 className={styles.heading_movie}>Helikopter w ogniu</h4>
-						<span className={styles.rating}>ocena: 10</span>
+						<h4 className={styles.heading_movie}>{movieProps.title}</h4>
+						<span className={styles.rating}>{movieProps.rating}</span>
 					</div>
 					<div className={styles.btns}>
-						<button className={styles.btn}>
-							zobacz
-							<RemoveRedEyeIcon style={{ fontSize: '30px' }} />
-						</button>
+						<Link to={`/movie/title=${movieProps.title}`}>
+							<button className={styles.btn}>
+								zobacz
+								<RemoveRedEyeIcon style={{ fontSize: '30px' }} />
+							</button>
+						</Link>
 						<button className={styles.btn}>
 							dodaj
 							<AddCommentIcon style={{ fontSize: '30px' }} />
