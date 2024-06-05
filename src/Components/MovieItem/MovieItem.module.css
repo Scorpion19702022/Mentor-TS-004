@@ -85,14 +85,16 @@
 
 .btns {
 	width: 100%;
-	padding: 0.4em;
+	width: 100%;
+	padding: 0.6em;
+	border-top: 0.8em solid var(--color-dark07);
 	display: flex;
 	justify-content: space-between;
 }
 
 .btn {
 	position: relative;
-	width: 45%;
+	width: 100%;
 	background: none;
 	border: none;
 	display: flex;
@@ -123,8 +125,4 @@
 
 .btn:hover {
 	color: var(--color-blue04);
-}
-
-a {
-	width: 50%;
 }
