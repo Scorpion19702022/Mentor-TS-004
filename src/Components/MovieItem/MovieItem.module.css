@@ -91,7 +91,7 @@
 
 .btn {
 	position: relative;
-	width: 48%;
+	width: 45%;
 	background: none;
 	border: none;
 	display: flex;
@@ -111,15 +111,19 @@
 	width: 20px;
 	height: 50px;
 	filter: blur(0.8em);
-	transform: translateX(-500%);
+	transform: translateX(-540%);
 	background-color: var(--color-blue08);
 	transition: transform 0.2s ease-in-out;
 }
 
 .btn:hover::before {
-	transform: translateX(500%);
+	transform: translateX(540%);
 }
 
 .btn:hover {
 	color: var(--color-blue04);
+}
+
+a {
+	width: 50%;
 }

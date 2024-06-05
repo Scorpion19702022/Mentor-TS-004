@@ -11,7 +11,9 @@ const Bestsellers = () => {
 	return (
 		<section className={styles.wrapper}>
 			<h2 className={styles.heading}>Bestsellers</h2>
-			<div className={styles.box_bestseller}>{topType}</div>
+			<div className={styles.box_bestseller}>
+				<div className={styles.bestseller}>{topType}</div>
+			</div>
 		</section>
 	)
 }
