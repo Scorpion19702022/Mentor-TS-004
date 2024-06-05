@@ -22,7 +22,7 @@ const MovieItem: React.FC<movieItemProps> = ({ movieProps }) => {
 				<div className={styles.box_content}>
 					<div className={styles.content}>
 						<h4 className={styles.heading_movie}>{movieProps.title}</h4>
-						<span className={styles.rating}>{movieProps.rating}</span>
+						<span className={styles.rating}>ocena: {movieProps.rating}</span>
 					</div>
 					<div className={styles.btns}>
 						<Link to={`/movie/title=${movieProps.title}`}>
