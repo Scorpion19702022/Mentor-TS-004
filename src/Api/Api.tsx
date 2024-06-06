@@ -22,8 +22,8 @@ export const getAllMovies = async () => {
 			...doc.data(),
 		}))
 
-		console.log(movies, 'movies')
-		console.log(moviesList, 'moviesList')
+		// console.log(movies, 'movies')
+		// console.log(moviesList, 'moviesList')
 
 		return moviesList
 	} catch (error) {
