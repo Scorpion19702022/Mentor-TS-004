@@ -50,7 +50,7 @@
 	border-radius: 25px;
 	background-color: var(--color-dark10);
 	border: 0.2em solid var(--color-color07);
-	animation: anim 6s infinite;
+	animation: anim1 8s infinite;
 }
 
 .mark_two {
@@ -60,12 +60,13 @@
 	left: 22%;
 	border-radius: 25px;
 	transform: translateX(-75%);
-	opacity: 0.3;
+	opacity: 0.5;
 	background-color: var(--color-dark10);
 	border: 0.2em solid var(--color-color07);
+	animation: anim2 8s infinite;
 }
 
-@keyframes anim {
+@keyframes anim1 {
 	0% {
 		transform: translateX(-75%);
 	}
@@ -74,6 +75,18 @@
 	}
 	100% {
 		transform: translateX(-75%);
+	}
+}
+
+@keyframes anim2 {
+	0% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.5;
 	}
 }
 
