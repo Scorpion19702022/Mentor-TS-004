@@ -44,25 +44,24 @@
 
 .mark {
 	position: absolute;
-	width: 12%;
-	height: 50%;
-	left: 18%;
+	width: 32px;
+	height: 32px;
+	left: 22%;
 	border-radius: 25px;
 	background-color: var(--color-dark10);
-	transform: rotate(3deg);
 	border: 0.2em solid var(--color-color07);
-	animation: anim 18s infinite;
+	animation: anim 12s infinite;
 }
 
 @keyframes anim {
 	0% {
-		transform: rotate(3deg);
+		transform: translateX(-75%);
 	}
 	50% {
-		transform: rotate(-3deg);
+		transform: translateX(135%);
 	}
 	100% {
-		transform: rotate(3deg);
+		transform: translateX(-75%);
 	}
 }
 
