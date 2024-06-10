@@ -51,6 +51,19 @@
 	background-color: var(--color-dark10);
 	transform: rotate(3deg);
 	border: 0.2em solid var(--color-color07);
+	animation: anim 18s infinite;
+}
+
+@keyframes anim {
+	0% {
+		transform: rotate(3deg);
+	}
+	50% {
+		transform: rotate(-3deg);
+	}
+	100% {
+		transform: rotate(3deg);
+	}
 }
 
 .ul_list {
