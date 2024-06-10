@@ -4,7 +4,7 @@ import styles from './App.module.css'
 import NavBar from './Components/NavBar/NavBar'
 import useMediaSearch from './Hooks/useMediaSearch'
 import useTopRated from './Hooks/useTopRated'
-import Bestsellers from './Components/Bestsellers/Bestsellers'
+// import Bestsellers from './Components/Bestsellers/Bestsellers'
 
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
