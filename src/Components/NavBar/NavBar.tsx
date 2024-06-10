@@ -43,6 +43,7 @@ const NavBar = () => {
 		<nav className={styles.nav}>
 			<img className={styles.logo} src={movIm} alt='logo' />
 			<div className={styles.mark}></div>
+			<div className={styles.mark_two}></div>
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
 				<li className={styles.list}>Blog</li>

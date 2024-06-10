@@ -50,7 +50,19 @@
 	border-radius: 25px;
 	background-color: var(--color-dark10);
 	border: 0.2em solid var(--color-color07);
-	animation: anim 12s infinite;
+	animation: anim 6s infinite;
+}
+
+.mark_two {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 22%;
+	border-radius: 25px;
+	transform: translateX(-75%);
+	opacity: 0.3;
+	background-color: var(--color-dark10);
+	border: 0.2em solid var(--color-color07);
 }
 
 @keyframes anim {
