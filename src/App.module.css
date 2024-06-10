@@ -18,15 +18,15 @@
 	--color-dark09: #171815;
 	--color-dark10: #0b0c0a;
 
-	--color-color01: #ccf5f5;
-	--color-color02: #99ebec;
-	--color-color03: #66e1e3;
-	--color-color04: #32d7da;
-	--color-color05: #00ced1;
-	--color-color06: #00a4a7;
-	--color-color07: #007b7d;
-	--color-color08: #005253;
-	--color-color09: #002929;
+	--color-color01: #ffedcc;
+	--color-color02: #ffdb99;
+	--color-color03: #ffc966;
+	--color-color04: #ffb732;
+	--color-color05: #ffa500;
+	--color-color06: #cc8400;
+	--color-color07: #996300;
+	--color-color08: #664200;
+	--color-color09: #332100;
 
 	--color-error: #e30022;
 }
@@ -37,5 +37,15 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: var(--color-dark07);
+	background: rgb(98, 98, 94);
+	background: rgb(98, 98, 94);
+	background: rgb(98, 98, 94);
+	background: linear-gradient(
+		125deg,
+		rgba(98, 98, 94, 1) 0%,
+		rgba(31, 32, 28, 1) 25%,
+		rgba(35, 36, 32, 1) 50%,
+		rgba(31, 32, 29, 1) 75%,
+		rgba(98, 98, 94, 1) 100%
+	);
 }
