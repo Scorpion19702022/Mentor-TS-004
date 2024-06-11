@@ -10,15 +10,15 @@
 	--color-dark09: #171815;
 	--color-dark10: #0b0c0a;
 
-	--color-blue01: #ccf5f5;
-	--color-blue02: #99ebec;
-	--color-blue03: #66e1e3;
-	--color-blue04: #32d7da;
-	--color-blue05: #00ced1;
-	--color-blue06: #00a4a7;
-	--color-blue07: #007b7d;
-	--color-blue08: #005253;
-	--color-blue09: #002929;
+	--color-color01: #ffedcc;
+	--color-color02: #ffdb99;
+	--color-color03: #ffc966;
+	--color-color04: #ffb732;
+	--color-color05: #ffa500;
+	--color-color06: #cc8400;
+	--color-color07: #996300;
+	--color-color08: #664200;
+	--color-color09: #332100;
 
 	--color-error: #e30022;
 }
@@ -29,6 +29,7 @@
 	padding: 2em;
 	display: flex;
 	justify-content: center;
+	background-color: rgba(51, 33, 0, 0.3);
 }
 
 .box_movies {
@@ -100,7 +101,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	color: var(--color-blue01);
+	color: var(--color-color01);
 	overflow: hidden;
 	cursor: pointer;
 	z-index: 1;
@@ -115,7 +116,7 @@
 	height: 50px;
 	filter: blur(0.8em);
 	transform: translateX(-540%);
-	background-color: var(--color-blue08);
+	background-color: var(--color-color08);
 	transition: transform 0.2s ease-in-out;
 }
 
@@ -124,5 +125,5 @@
 }
 
 .btn:hover {
-	color: var(--color-blue04);
+	color: var(--color-color04);
 }
