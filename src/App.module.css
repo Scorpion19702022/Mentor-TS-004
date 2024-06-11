@@ -39,10 +39,9 @@
 	align-items: center;
 	background: linear-gradient(
 		125deg,
-		rgba(98, 98, 94, 1) 0%,
-		rgba(31, 32, 28, 1) 25%,
-		rgba(35, 36, 32, 1) 50%,
-		rgba(31, 32, 29, 1) 75%,
-		rgba(98, 98, 94, 1) 100%
+		rgba(70, 40, 0, 1) 0%,
+		rgba(17, 10, 0, 1) 25%,
+		rgba(17, 10, 0, 1) 75%,
+		rgba(70, 40, 0, 1) 100%
 	);
 }
