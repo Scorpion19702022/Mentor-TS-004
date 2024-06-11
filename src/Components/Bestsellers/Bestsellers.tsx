@@ -11,6 +11,9 @@ const Bestsellers = () => {
 	return (
 		<section className={styles.wrapper}>
 			<h2 className={styles.heading}>Bestsellers</h2>
+			<div className={styles.circle_one}></div>
+			<div className={styles.circle_two}></div>
+			<div className={styles.circle_three}></div>
 			<div className={styles.box_bestseller}>{topType}</div>
 		</section>
 	)
