@@ -19,6 +19,7 @@
 	--color-color07: #996300;
 	--color-color08: #664200;
 	--color-color09: #332100;
+	--color-color10: #110a00;
 
 	--color-error: #e30022;
 }
@@ -31,8 +32,8 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border-bottom: 0.04em solid var(--color-dark02);
-	background-color: var(--color-dark09);
+	border-bottom: 0.04em solid var(--color-color06);
+	background-color: var(--color-color10);
 }
 
 .logo {
