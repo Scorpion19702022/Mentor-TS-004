@@ -1,6 +1,6 @@
 import styles from './MovieItem.module.css'
 
-import Helicopter from '../../assets/helikopter.jpg'
+// import Helicopter from '../../assets/helikopter.jpg'
 
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye'
 
@@ -17,7 +17,7 @@ const MovieItem: React.FC<movieItemProps> = ({ movieProps }) => {
 		<div className={styles.wrapper}>
 			<div className={styles.box_movies}>
 				<div className={styles.box_img}>
-					<img className={styles.img_movie} src={Helicopter} alt='moviePhoto' />
+					<img className={styles.img_movie} src={movieProps.img} alt='movieProps' />
 				</div>
 				<div className={styles.box_content}>
 					<div className={styles.content}>
