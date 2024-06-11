@@ -30,6 +30,11 @@
 	display: flex;
 	justify-content: center;
 	background-color: rgba(51, 33, 0, 0.3);
+	border-top-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-bottom: 0.8em solid rgba(51, 33, 0, 0.7);
+	box-shadow: -0.8em -0.8em 1em var(--color-color08);
+	margin: 0em 1em;
 }
 
 .box_movies {
