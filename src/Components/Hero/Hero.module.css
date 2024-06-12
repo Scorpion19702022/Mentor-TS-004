@@ -50,3 +50,16 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.swiper_button_next,
+.swiper_button_prev {
+	color: var(--color-color01);
+}
+
+.swiper_button_next {
+	margin-right: 1em;
+}
+
+.swiper_button_prev {
+	margin-left: 1em;
+}

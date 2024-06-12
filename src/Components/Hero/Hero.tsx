@@ -23,7 +23,10 @@ const Hero = () => {
 				pagination={{
 					clickable: true,
 				}}
-				navigation={true}
+				navigation={{
+					nextEl: `.${styles.swiper_button_next}`,
+					prevEl: `.${styles.swiper_button_prev}`,
+				}}
 				modules={[Autoplay, Pagination, Navigation]}
 				className={styles.swiper}
 			>
@@ -36,6 +39,9 @@ const Hero = () => {
 				<SwiperSlide className={styles.swiper_slide}>Slide 7</SwiperSlide>
 				<SwiperSlide className={styles.swiper_slide}>Slide 8</SwiperSlide>
 				<SwiperSlide className={styles.swiper_slide}>Slide 9</SwiperSlide>
+
+				<div className={`${styles.swiper_button_next} swiper-button-next`}></div>
+				<div className={`${styles.swiper_button_prev} swiper-button-prev`}></div>
 			</Swiper>
 		</>
 	)
