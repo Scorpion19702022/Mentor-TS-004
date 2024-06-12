@@ -2,12 +2,13 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+// import 'swiper/css/navigation'
 
 import styles from './Hero.module.css'
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules'
+import NavTest from './NavTest'
 
 const Hero = () => {
 	return (
@@ -20,7 +21,8 @@ const Hero = () => {
 					clickable: true,
 				}}
 				navigation={true}
-				modules={[Pagination, Navigation]}
+				// modules={[Pagination, Navigation]}
+				modules={[Pagination, NavTest]}
 				className={styles.swiper}
 			>
 				<SwiperSlide className={styles.swiper_slide}>Slide 1</SwiperSlide>
