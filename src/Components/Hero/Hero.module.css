@@ -61,11 +61,18 @@
 
 .box_title {
 	position: absolute;
-	width: 30%;
-	top: -1.4%;
+	width: 27%;
+	top: -3%;
 	left: 0%;
 	padding: 0.4em;
 	background-color: var(--color-color08);
+}
+
+.title {
+	color: var(--color-color01);
+	font-size: 1.8em;
+	font-weight: 200;
+	text-align: left;
 }
 
 /* .swiper_button_next,
