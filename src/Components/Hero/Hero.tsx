@@ -2,13 +2,12 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
-// import 'swiper/css/navigation'
+import 'swiper/css/navigation'
 
 import styles from './Hero.module.css'
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules'
-import NavTest from './NavTest'
+import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 
 const Hero = () => {
 	return (
@@ -16,13 +15,16 @@ const Hero = () => {
 			<Swiper
 				slidesPerView={1}
 				spaceBetween={30}
+				autoplay={{
+					delay: 3500,
+					disableOnInteraction: false,
+				}}
 				loop={true}
 				pagination={{
 					clickable: true,
 				}}
 				navigation={true}
-				// modules={[Pagination, Navigation]}
-				modules={[Pagination, NavTest]}
+				modules={[Autoplay, Pagination, Navigation]}
 				className={styles.swiper}
 			>
 				<SwiperSlide className={styles.swiper_slide}>Slide 1</SwiperSlide>
