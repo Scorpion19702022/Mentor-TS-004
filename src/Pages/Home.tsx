@@ -6,6 +6,8 @@ import styles from '../Components/Bestsellers/Bestsellers.module.css'
 import { getAllMovies } from '../Api/Api'
 import useAnousment from '../Hooks/useAnousment'
 import Hero from '../Components/Hero/Hero'
+import AddRecently from '../Components/AddRecently/AddRecently'
+import ContactCta from '../Components/ContactCta/ContactCta'
 
 const Home = () => {
 	const { announcement } = useAnousment()
@@ -58,8 +60,10 @@ const Home = () => {
 
 	return (
 		<main className={styles.wrapper_main}>
-			<Bestsellers />
 			<Hero />
+			<Bestsellers />
+			<ContactCta />
+			<AddRecently />
 		</main>
 	)
 }

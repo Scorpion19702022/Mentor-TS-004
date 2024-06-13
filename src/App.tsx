@@ -9,6 +9,7 @@ import useTopRated from './Hooks/useTopRated'
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import MoviePage from './Pages/MoviePage'
+import Contact from './Pages/Contact'
 
 function App() {
 	const { series, movies } = useMediaSearch()
@@ -26,6 +27,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/movie/title=:title' element={<MoviePage />} />
+					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>
 		</div>
