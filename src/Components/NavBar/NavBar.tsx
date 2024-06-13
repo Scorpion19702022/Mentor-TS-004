@@ -41,9 +41,11 @@ const NavBar = () => {
 
 	return (
 		<nav className={styles.nav}>
-			<img className={styles.logo} src={movIm} alt='logo' />
-			<div className={styles.mark}></div>
-			<div className={styles.mark_two}></div>
+			<div className={styles.box_logo}>
+				<img className={styles.logo} src={movIm} alt='logo' />
+				<div className={styles.mark}></div>
+				<div className={styles.mark_two}></div>
+			</div>
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
 				<li className={styles.list}>Blog</li>
