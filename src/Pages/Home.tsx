@@ -60,7 +60,9 @@ const Home = () => {
 
 	return (
 		<main className={styles.wrapper_main}>
-			<Hero />
+			<div className={styles.wrapper_hero}>
+				<Hero />
+			</div>
 			<Bestsellers />
 			<ContactCta />
 			<WillBeSoon />
