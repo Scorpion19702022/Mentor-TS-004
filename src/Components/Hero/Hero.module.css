@@ -24,6 +24,7 @@
 }
 
 .swiper {
+	position: relative;
 	width: 56%;
 	height: 48%;
 	border: 0.4em solid var(--color-color08);

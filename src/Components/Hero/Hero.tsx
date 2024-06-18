@@ -19,10 +19,6 @@ import incepcja from '../../assets/incepcja.jpg'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 
 const Hero = () => {
-	const paginations = document.querySelectorAll('.swiper-pagination-bullet')
-
-	console.log(paginations)
-
 	return (
 		<>
 			<Swiper
