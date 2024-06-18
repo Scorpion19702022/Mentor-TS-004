@@ -9,6 +9,14 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-/* .swiper-button-next::after {
-	color: red;
-} */
+.swiper {
+	position: relative;
+}
+
+.swiper-button-next::after {
+	position: absolute;
+}
+
+.swiper-pagination-bullet-active {
+	color: white;
+}
