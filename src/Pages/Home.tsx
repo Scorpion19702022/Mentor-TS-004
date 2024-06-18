@@ -6,7 +6,7 @@ import styles from '../Components/Bestsellers/Bestsellers.module.css'
 import { getAllMovies } from '../Api/Api'
 import useAnousment from '../Hooks/useAnousment'
 import Hero from '../Components/Hero/Hero'
-import AddRecently from '../Components/AddRecently/AddRecently'
+import WillBeSoon from '../Components/WillBeSoon/WillBeSoon'
 import ContactCta from '../Components/ContactCta/ContactCta'
 
 const Home = () => {
@@ -63,7 +63,7 @@ const Home = () => {
 			<Hero />
 			<Bestsellers />
 			<ContactCta />
-			<AddRecently />
+			<WillBeSoon />
 		</main>
 	)
 }
