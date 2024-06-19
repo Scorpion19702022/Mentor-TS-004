@@ -1,6 +1,8 @@
 import useAnousment from '../../Hooks/useAnousment'
 import MovieItem from '../MovieItem/MovieItem'
 
+import styles from './WillBeSoon.module.css'
+
 const AddRecently = () => {
 	const { announcement } = useAnousment()
 
@@ -9,9 +11,9 @@ const AddRecently = () => {
 	console.log(announcement)
 
 	return (
-		<section>
+		<section className={styles.wrapper}>
 			<h2>Zapowiedzi</h2>
-			<div>{willBeAdd}</div>
+			<div className={styles.box_wiilBe}>{willBeAdd}</div>
 		</section>
 	)
 }

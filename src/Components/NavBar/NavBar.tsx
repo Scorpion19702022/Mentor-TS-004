@@ -52,7 +52,9 @@ const NavBar = () => {
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
 				<li className={styles.list}>Blog</li>
-				<li className={styles.list}>Kontakt</li>
+				<Link to='/contact'>
+					<li className={styles.list}>Kontakt</li>
+				</Link>
 			</ul>
 		</nav>
 	)
