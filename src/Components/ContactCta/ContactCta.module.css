@@ -35,11 +35,23 @@
 }
 
 .box_contact {
+	height: 50%;
 	position: absolute;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
 	z-index: 20;
+}
+
+.heading_contact {
+	font-size: 2.4em;
+	color: var(--color-color01);
+}
+
+.btn_contact {
+	padding: 0.6em 2em;
+	font-size: 1.2em;
 }
 
 .img {
