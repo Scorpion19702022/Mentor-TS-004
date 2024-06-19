@@ -59,6 +59,11 @@
 	cursor: pointer;
 	z-index: 1;
 	overflow: hidden;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.btn_contact:hover {
+	background-color: rgba(51, 33, 0, 0.8);
 }
 
 .btn_contact::before {
@@ -69,7 +74,7 @@
 	height: 80px;
 	transform: translate(-340%, -30%);
 	background-color: var(--color-color08);
-	transition: all 0.2s ease-in-out;
+	transition: all 0.1s ease-in-out;
 	z-index: -1;
 }
 
@@ -85,7 +90,7 @@
 	height: 80px;
 	transform: translate(260%, -30%);
 	background-color: var(--color-color08);
-	transition: all 0.2s ease-in-out;
+	transition: all 0.1s ease-in-out;
 	z-index: -1;
 }
 
