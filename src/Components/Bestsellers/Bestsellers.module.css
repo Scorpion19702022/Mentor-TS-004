@@ -52,7 +52,8 @@
 	border-bottom: 0.04em solid var(--color-color03);
 }
 
-.box_bestseller {
+.box_bestseller,
+.box_willBe {
 	margin-top: 2em;
 	padding: 0em 2em;
 	width: 100%;
