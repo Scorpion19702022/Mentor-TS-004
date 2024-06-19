@@ -1,7 +1,7 @@
 import useAnousment from '../../Hooks/useAnousment'
 import MovieItem from '../MovieItem/MovieItem'
 
-import styles from './WillBeSoon.module.css'
+import styles from '../Bestsellers/Bestsellers.module.css'
 
 const AddRecently = () => {
 	const { announcement } = useAnousment()
