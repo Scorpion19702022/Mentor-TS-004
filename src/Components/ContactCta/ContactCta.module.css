@@ -57,6 +57,8 @@
 	border: 0.04em solid var(--color-color02);
 	color: var(--color-color02);
 	cursor: pointer;
+	z-index: 1;
+	overflow: hidden;
 }
 
 .btn_contact::before {
@@ -65,8 +67,30 @@
 	filter: blur(1em);
 	width: 30px;
 	height: 80px;
-	transform: translate(-320%, -30%);
-	background-color: var(--color-color06);
+	transform: translate(-340%, -30%);
+	background-color: var(--color-color08);
+	transition: all 0.2s ease-in-out;
+	z-index: -1;
+}
+
+.btn_contact:hover::before {
+	transform: translate(460%, -30%);
+}
+
+.btn_contact::after {
+	position: absolute;
+	content: '';
+	filter: blur(1em);
+	width: 30px;
+	height: 80px;
+	transform: translate(260%, -30%);
+	background-color: var(--color-color08);
+	transition: all 0.2s ease-in-out;
+	z-index: -1;
+}
+
+.btn_contact:hover::after {
+	transform: translate(-540%, -30%);
 }
 
 .img {
