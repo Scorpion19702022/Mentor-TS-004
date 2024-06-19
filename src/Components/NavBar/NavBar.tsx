@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useState } from 'react'
 
 import { Link } from 'react-router-dom'
 
@@ -11,7 +11,7 @@ import { db } from '../../Firebase'
 import movIm from '../../assets/movies.png'
 
 const NavBar = () => {
-	const [movies, setMovies] = useState<any>([])
+	// const [movies, setMovies] = useState<any>([])
 
 	// useEffect(() => {
 	// 	const fetchData = getAllMovies()
@@ -41,14 +41,14 @@ const NavBar = () => {
 
 	return (
 		<nav className={styles.nav}>
-			<div className={styles.box_logo}>
-				{/* <Link to='/home'>
+			<Link to='/'>
+				<div className={styles.box_logo}>
 					<img className={styles.logo} src={movIm} alt='logo' />
-				</Link> */}
-				<img className={styles.logo} src={movIm} alt='logo' />
-				<div className={styles.mark}></div>
-				<div className={styles.mark_two}></div>
-			</div>
+					{/* <img className={styles.logo} src={movIm} alt='logo' /> */}
+					<div className={styles.mark}></div>
+					<div className={styles.mark_two}></div>
+				</div>
+			</Link>
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
 				<li className={styles.list}>Blog</li>

@@ -6,7 +6,7 @@ import useMediaSearch from './Hooks/useMediaSearch'
 import useTopRated from './Hooks/useTopRated'
 // import Bestsellers from './Components/Bestsellers/Bestsellers'
 
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import MoviePage from './Pages/MoviePage'
 import Contact from './Pages/Contact'
@@ -22,8 +22,9 @@ function App() {
 
 	return (
 		<div className={styles.wrapper}>
-			<NavBar />
+			{/* <NavBar /> */}
 			<Router>
+				<NavBar />
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/movie/title=:title' element={<MoviePage />} />
