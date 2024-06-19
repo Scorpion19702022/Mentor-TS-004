@@ -50,8 +50,23 @@
 }
 
 .btn_contact {
+	position: relative;
 	padding: 0.6em 2em;
 	font-size: 1.2em;
+	background: none;
+	border: 0.04em solid var(--color-color02);
+	color: var(--color-color02);
+	cursor: pointer;
+}
+
+.btn_contact::before {
+	position: absolute;
+	content: '';
+	filter: blur(1em);
+	width: 30px;
+	height: 80px;
+	transform: translate(-320%, -30%);
+	background-color: var(--color-color06);
 }
 
 .img {
