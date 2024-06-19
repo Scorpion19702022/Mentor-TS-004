@@ -28,7 +28,6 @@ function App() {
 					<Route path='/' element={<Home />} />
 					<Route path='/movie/title=:title' element={<MoviePage />} />
 					<Route path='/contact' element={<Contact />} />
-					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>
 		</div>

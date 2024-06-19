@@ -42,7 +42,7 @@ const NavBar = () => {
 	return (
 		<nav className={styles.nav}>
 			<div className={styles.box_logo}>
-				{/* <Link to='/'>
+				{/* <Link to='/home'>
 					<img className={styles.logo} src={movIm} alt='logo' />
 				</Link> */}
 				<img className={styles.logo} src={movIm} alt='logo' />
