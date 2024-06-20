@@ -20,7 +20,7 @@ const FormContact = () => {
 	} = useForm<Input>()
 	const onSubmit: SubmitHandler<Input> = data => {
 		console.log(data)
-		emailjs.sendForm('', 'template_hey92tp', form.current, 'xbLltySyebCSexAaR').then(
+		emailjs.sendForm('service_w77dd6g', 'template_hey92tp', form.current, 'xbLltySyebCSexAaR').then(
 			(result: any) => {
 				console.log(result)
 			},
