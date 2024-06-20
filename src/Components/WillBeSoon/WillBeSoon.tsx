@@ -13,7 +13,7 @@ const AddRecently = () => {
 	return (
 		<section className={styles.wrapper}>
 			<h2 className={styles.heading}>Zapowiedzi</h2>
-			<div className={styles.box_wiilBe}>{willBeAdd}</div>
+			<div className={styles.box_willBe}>{willBeAdd}</div>
 		</section>
 	)
 }
