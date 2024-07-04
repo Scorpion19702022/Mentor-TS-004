@@ -85,3 +85,12 @@
 	border: 0.04em solid var(--color-color07);
 	outline: none;
 }
+
+.errors {
+	height: 30px;
+	color: red;
+}
+
+.noErrors {
+	height: 30px;
+}
