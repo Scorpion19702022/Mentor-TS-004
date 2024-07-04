@@ -17,15 +17,17 @@ const FormContact = () => {
 		handleSubmit,
 		watch,
 		formState: { errors },
+		reset,
 	} = useForm<Input>()
-	const onSubmit: SubmitHandler<Input> = data => {
+	const onSubmit: SubmitHandler<Input> = (data: Input) => {
 		console.log(data)
-		emailjs.sendForm('service_w77dd6g', 'template_hey92tp', form.current, 'xbLltySyebCSexAaR').then(
+		emailjs.sendForm('service_w77dd6g', 'template_hey92tp', data, 'xbLltySyebCSexAaR').then(
 			(result: any) => {
-				console.log(result)
+				console.log(result.text)
 			},
 			(error: any) => console.log(error)
 		)
+		reset()
 	}
 
 	const form: any = useRef()
@@ -39,6 +41,7 @@ const FormContact = () => {
 				<textarea className={styles.textarea} {...register('content')}></textarea>
 				<label className={styles.label}>Podaj adres email:</label>
 				<input className={styles.input} type='text' {...register('email')} />
+				<button type='submit'>Wyślij</button>
 			</div>
 		</form>
 	)
