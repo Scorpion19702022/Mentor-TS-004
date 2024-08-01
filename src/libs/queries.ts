@@ -2,11 +2,13 @@ import { gql } from '@apollo/client'
 
 export const GET_POST = gql`
 	query GetPosts {
-		blog {
+		Blog {
 			title
 			author
 			dateAdded
-			content
+			content {
+				html # Pobiera treść HTML z RichText
+			}
 			photo
 		}
 	}

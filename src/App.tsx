@@ -11,6 +11,8 @@ import Home from './Pages/Home'
 import MoviePage from './Pages/MoviePage'
 import Contact from './Pages/Contact'
 import BlogPage from './Pages/BlogPage/BlogPage'
+import Login from './Pages/Auth/Login'
+import Registraction from './Pages/Auth/Registraction'
 
 function App() {
 	const { series, movies } = useMediaSearch()
@@ -31,6 +33,8 @@ function App() {
 					<Route path='/movie/title=:title' element={<MoviePage />} />
 					<Route path='/blog' element={<BlogPage />} />
 					<Route path='/contact' element={<Contact />} />
+					<Route path='/login' element={<Login />} />
+					<Route path='/register' element={<Registraction />} />
 				</Routes>
 			</Router>
 		</div>
