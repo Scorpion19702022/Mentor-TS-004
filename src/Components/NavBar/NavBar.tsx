@@ -51,7 +51,9 @@ const NavBar = () => {
 			</Link>
 			<ul className={styles.ul_list}>
 				<li className={styles.list}>Filmy i seriale</li>
-				<li className={styles.list}>Blog</li>
+				<Link to='/blog'>
+					<li className={styles.list}>Blog</li>
+				</Link>
 				<Link to='/contact'>
 					<li className={styles.list}>Kontakt</li>
 				</Link>

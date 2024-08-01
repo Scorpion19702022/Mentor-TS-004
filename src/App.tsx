@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import MoviePage from './Pages/MoviePage'
 import Contact from './Pages/Contact'
+import BlogPage from './Pages/BlogPage/BlogPage'
 
 function App() {
 	const { series, movies } = useMediaSearch()
@@ -28,6 +29,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/movie/title=:title' element={<MoviePage />} />
+					<Route path='/blog' element={<BlogPage />} />
 					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>
