@@ -50,7 +50,9 @@ const NavBar = () => {
 				</div>
 			</Link>
 			<ul className={styles.ul_list}>
-				<li className={styles.list}>Filmy i seriale</li>
+				<Link to='/'>
+					<li className={styles.list}>Filmy i seriale</li>
+				</Link>
 				<Link to='/blog'>
 					<li className={styles.list}>Blog</li>
 				</Link>

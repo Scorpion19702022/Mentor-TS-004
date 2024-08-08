@@ -14,7 +14,7 @@ const BlogPage = () => {
 	if (error) return <h3>error</h3>
 
 	return (
-		<section className={styles.wrapper_blog}>
+		<section className={styles.wrapper}>
 			<h2 className={styles.heading}>Blog</h2>
 			{data.map((p: any) => {
 				return (
