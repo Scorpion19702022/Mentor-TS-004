@@ -48,11 +48,29 @@
 .label {
 	width: 70%;
 	margin: 1em 0em 0.4em 0em;
-	color: var(--color-dark01);
+	color: var(--color-color03);
 	text-align: left;
 }
 
 .input {
 	width: 70%;
-	padding: 0.6em;
+	padding: 0.8em;
+	background-color: var(--color-color01);
+	border: 0.04em solid var(--color-color06);
+	outline: none;
+}
+
+.btn_log {
+	width: 10%;
+	font-size: 1.2em;
+	padding: 0.4em;
+	background-color: var(--color-color04);
+	border: 0.04em solid var(--color-color08);
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn_log:hover {
+	background-color: var(--color-color08);
+	color: var(--color-color01);
 }
