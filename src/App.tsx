@@ -34,7 +34,7 @@ function App() {
 					<Route path='/blog' element={<BlogPage />} />
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/login' element={<Login />} />
-					<Route path='/register' element={<Registraction />} />
+					<Route path='/registraction' element={<Registraction />} />
 				</Routes>
 			</Router>
 		</div>

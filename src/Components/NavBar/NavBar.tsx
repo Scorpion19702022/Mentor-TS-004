@@ -60,7 +60,7 @@ const NavBar = () => {
 				<Link to='/login'>
 					<li className={styles.list}>Zaloguj</li>
 				</Link>
-				<Link to='/registration'>
+				<Link to='/registraction'>
 					<li className={styles.list}>Rejestracja</li>
 				</Link>
 			</ul>
