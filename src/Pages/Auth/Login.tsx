@@ -3,7 +3,6 @@ import React from 'react'
 import styles from './Login.module.css'
 
 const Login = () => {
-	console.log('login')
 	return (
 		<main className={styles.wrapper}>
 			<h1 className={styles.heading}>Zaloguj się na konto użytkownika</h1>
